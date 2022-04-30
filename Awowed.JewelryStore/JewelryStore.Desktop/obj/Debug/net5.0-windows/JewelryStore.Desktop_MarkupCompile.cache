@@ -1,0 +1,20 @@
+﻿JewelryStore.Desktop
+
+
+winexe
+C#
+.cs
+D:\ХПКК\4 курс\jewerly_store\Awowed.JewelryStore\JewelryStore.Desktop\obj\Debug\net5.0-windows\
+JewelryStore.Desktop
+none
+false
+TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+D:\ХПКК\4 курс\jewerly_store\Awowed.JewelryStore\JewelryStore.Desktop\App.xaml
+261066299707
+
+412112693105
+229-1698041060
+Controls\InsertionItem.xaml;Controls\JewerlyItem.xaml;Controls\MetalItem.xaml;Controls\ProdGroupItem.xaml;Controls\SupplierItem.xaml;Views\InsertionsWindows\AddInsWindow.xaml;Views\InsertionsWindows\EditInsWindow.xaml;Views\InsertionsWindows\InsertionsMainWindow.xaml;Views\MetalsWindows\AddMetWindow.xaml;Views\MetalsWindows\EditMetWindow.xaml;Views\MetalsWindows\MetalsMainWindow.xaml;Views\ProdGroupsWindows\AddProdGrWindow.xaml;Views\ProdGroupsWindows\EditProdGrWindow.xaml;Views\ProdGroupsWindows\ProdGroupsMainWindow.xaml;Views\ProductsWindows\AddWindow.xaml;Views\ProductsWindows\ArticleWindow.xaml;Views\ProductsWindows\CheckWindow.xaml;Views\ProductsWindows\EditWindow.xaml;Views\ProductsWindows\MainWindow.xaml;Views\ProductsWindows\PrintWindow.xaml;Views\ProductsWindows\SalesWindow.xaml;Views\ProductsWindows\ScanWindow.xaml;Views\ProductsWindows\SettingsWindow.xaml;Views\SuppliersWindows\AddSuppWindow.xaml;Views\SuppliersWindows\EditSuppWindow.xaml;Views\SuppliersWindows\SuppliersMainWindow.xaml;
+
+False
+

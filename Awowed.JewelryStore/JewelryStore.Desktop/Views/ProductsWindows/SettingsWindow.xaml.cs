@@ -17,12 +17,10 @@ namespace JewelryStore.Desktop.Views
 
         private void SettingsWindow_OnLoaded(object sender, RoutedEventArgs e)
         {
-            Settings.ReadConfig();
             cbOpen.Items.Add("Вставки");
             cbOpen.Items.Add("Групи Виробів");
             cbOpen.Items.Add("Метали");
             cbOpen.Items.Add("Постачальники");
-
         }
 
         private void OpenFromCbWindowBtn_Clicked(object sender, RoutedEventArgs e)
