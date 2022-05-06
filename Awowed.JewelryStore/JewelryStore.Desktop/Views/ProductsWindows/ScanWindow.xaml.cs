@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows;
-using System.IO.Ports;
 using System.Linq;
 using System.Windows.Input;
 using JewelryStore.Desktop.Models;
@@ -31,7 +30,7 @@ namespace JewelryStore.Desktop.Views.ProductsWindows
 
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(char.IsDigit(e.Text, 0));
+            e.Handled = !char.IsDigit(e.Text, 0);
         }
 
         private void TextBox_OnKeyDown(object sender, KeyEventArgs e)

@@ -44,7 +44,7 @@ namespace JewelryStore.Desktop.Views
 
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(Char.IsDigit(e.Text, 0));
+            e.Handled = !char.IsDigit(e.Text, 0);
         }
 
         private void EditBtn_Clicked(object sender, RoutedEventArgs e)

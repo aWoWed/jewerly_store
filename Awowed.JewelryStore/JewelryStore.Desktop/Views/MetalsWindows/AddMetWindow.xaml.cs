@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
 using System.Windows.Controls;
@@ -28,7 +27,7 @@ namespace JewelryStore.Desktop.Views
         }
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(Char.IsDigit(e.Text, 0));
+            e.Handled = !char.IsDigit(e.Text, 0);
         }
 
         private void AddBtn_Clicked(object sender, RoutedEventArgs e)
@@ -44,7 +43,7 @@ namespace JewelryStore.Desktop.Views
             switch (result)
             {
                 case MessageBoxResult.Yes:
-                    if (TbSample.Text != string.Empty && TbSample.Text.Length == 3 && TbWorkPrice.Text != String.Empty && TbPrice.Text != String.Empty)
+                    if (TbSample.Text != string.Empty && TbSample.Text.Length == 3 && TbWorkPrice.Text != string.Empty && TbPrice.Text != string.Empty)
                     {
                         var metal = new Metal
                         {
@@ -60,7 +59,7 @@ namespace JewelryStore.Desktop.Views
                             MessageBox.Show("Такий метал вже є в бд", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
                             return;
                         }
-                        if (metal.MetalName == String.Empty)
+                        if (metal.MetalName == string.Empty)
                         {
                             MessageBox.Show("Введіть назву металу!", "Помилка", MessageBoxButton.OK, MessageBoxImage.Error);
                             return;

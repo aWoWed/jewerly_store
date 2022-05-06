@@ -1,7 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Windows;
-using JewelryStore.Desktop.Models;
+﻿using System.Windows;
 
 namespace JewelryStore.Desktop.Views
 {

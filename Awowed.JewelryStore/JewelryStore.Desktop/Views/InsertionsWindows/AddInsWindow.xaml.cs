@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows;
@@ -40,7 +39,7 @@ namespace JewelryStore.Desktop.Views
         }
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(Char.IsDigit(e.Text, 0));
+            e.Handled = !char.IsDigit(e.Text, 0);
         }
 
         private void AddBtn_Clicked(object sender, RoutedEventArgs e)

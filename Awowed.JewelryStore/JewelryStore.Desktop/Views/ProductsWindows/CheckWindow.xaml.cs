@@ -1,18 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using JewelryStore.Desktop.Models;
 using JewelryStore.Desktop.ViewModels;
 using Microsoft.EntityFrameworkCore;
@@ -71,7 +62,7 @@ namespace JewelryStore.Desktop.Views.ProductsWindows
 
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
-            e.Handled = !(char.IsDigit(e.Text, 0));
+            e.Handled = !char.IsDigit(e.Text, 0);
         }
 
         private void CountOverall()

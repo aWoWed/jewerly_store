@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Reflection;
-using System.Reflection.Metadata;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 using JewelryStore.Desktop.Models;
 using JewelryStore.Desktop.ViewModels;
-using Microsoft.Win32;
 using ZXing;
 using Spire.Doc;
 using Spire.Doc.Documents;
 using Spire.Doc.Fields;
-using Xceed.Words.NET;
 using Document = Spire.Doc.Document;
 
 
