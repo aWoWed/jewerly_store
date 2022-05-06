@@ -215,9 +215,9 @@ namespace JewelryStore.Desktop.Views
             if (!(sender is TextBox textBox))
                 return;
 
-            if ((textBox.Text.Contains(',') && e.Text[^1] == ',')
-                || (!Regex.IsMatch(e.Text[^1].ToString(), @"\d|,"))
-                || (textBox.Text.Length == 0 && e.Text[^1] == ','))
+            if (textBox.Text.Contains(',') && e.Text[^1] == ','
+                || !Regex.IsMatch(e.Text[^1].ToString(), @"\d|,")
+                || textBox.Text.Length == 0 && e.Text[^1] == ',')
             {
                 e.Handled = true;
                 return;
@@ -225,7 +225,7 @@ namespace JewelryStore.Desktop.Views
 
             if (Regex.IsMatch(textBox.Text, @"\d+") && e.Text[^1] == ',')
             {
-                textBox.Text += ",0";
+                textBox.Text += ",";
                 _dictionary[textBox.Name]++;
                 textBox.CaretIndex = textBox.Text.Length;
                 e.Handled = true;
