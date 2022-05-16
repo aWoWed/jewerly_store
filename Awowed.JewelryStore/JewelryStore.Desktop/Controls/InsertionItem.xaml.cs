@@ -57,7 +57,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Категорія каменя: {_vm.GemCategory}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -66,7 +66,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Ціна за карат: {_vm.Price}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -75,7 +75,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Ціна за роботу: {_vm.WorkPrice}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,

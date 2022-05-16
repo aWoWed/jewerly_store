@@ -24,7 +24,7 @@
 
             <StackPanel Grid.Column="0" Orientation="Vertical" x:Name="ItemStackPanel">
                 <TextBlock Margin="5" 
-                           TextAlignment="Center"
+                           TextAlignment="Left"
                            VerticalAlignment="Center"
                            FontFamily="Calibri" 
                            FontSize="16" 

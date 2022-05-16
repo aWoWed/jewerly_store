@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:JewelryStore.Desktop.Views.ProductsWindows"
         mc:Ignorable="d"
-        Title="Перевірка виробу на складі" MinHeight="838" Height="838" MaxHeight="1050" MinWidth="750" Width="750" MaxWidth="750" FontFamily="Calibri" FontSize="14"
+        Title="Перевірка виробу на складі" MinHeight="838" Height="838" MaxHeight="1000" MinWidth="750" Width="750" MaxWidth="750" FontFamily="Calibri" FontSize="14"
         Loaded="СheckWindow_OnLoaded" WindowStartupLocation="CenterScreen">
     <Window.Resources>
         <Style TargetType="Label" x:Key ="BaseLabel">

@@ -195,8 +195,6 @@ namespace JewelryStore.Desktop.Views
             TbWeaveType.Text = string.Empty;
         }
 
-
-
         private void IntPreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             
@@ -257,7 +255,6 @@ namespace JewelryStore.Desktop.Views
 
                 textBox.CaretIndex = textBox.Text.Length;
             }
-            
             if (textBox.Name == "TbWeight" || textBox.Name == "TbCarat")
             {
                 if (textBox.Text.Length == 0)

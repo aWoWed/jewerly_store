@@ -59,7 +59,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Штрих-код: {_vm.BarCode}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -68,7 +68,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Дата прибуття: {_vm.ArrivalDate?.ToShortDateString()}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -77,7 +77,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Метал: {context.Metals.FirstOrDefault(x => x.Id == _vm.IdMet).MetalName} {context.Metals.FirstOrDefault(x => x.Id == _vm.IdMet).Sample}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -86,7 +86,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Група виробу: {context.Prodgroups.FirstOrDefault(x => x.Id == _vm.IdProdGr).ProdGroupName}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -95,7 +95,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Розмір: {_vm.ProdSize}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -104,7 +104,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Вага: {_vm.Weight}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -113,7 +113,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Чиста Вага: {_vm.ClearWeight}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -122,7 +122,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Вставка: {context.Insertions.FirstOrDefault(x => x.Id == _vm.IdIns).InsertName} | {context.Insertions.FirstOrDefault(x => x.Id == _vm.IdIns).InsertColor}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -131,7 +131,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Карат: {_vm.Carat}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -140,7 +140,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Огранка: {_vm.Faceting}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -149,7 +149,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Спосіб плетіння: {_vm.WeaveWay}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -158,7 +158,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Тип плетіння: {_vm.WeaveType}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -167,7 +167,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Ціна за роботу: {_vm.PriceForTheWork}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
@@ -176,7 +176,7 @@ namespace JewelryStore.Desktop.Controls
                     {
                         Text = $"Ціна: {_vm.Price}",
                         Margin = new Thickness(5),
-                        TextAlignment = TextAlignment.Center,
+                        TextAlignment = TextAlignment.Left,
                         VerticalAlignment = VerticalAlignment.Center,
                         FontFamily = new FontFamily("Calibri"),
                         FontSize = 16,
